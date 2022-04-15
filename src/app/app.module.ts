@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { GitDetailComponent } from './git-detail/git-detail.component';
 import { HomeComponent } from './home/home.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     GitDetailComponent,
-    HomeComponent
+    HomeComponent,
+    
   ],
   imports: [
     BrowserModule,
