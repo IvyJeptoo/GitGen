@@ -12,7 +12,8 @@ button a{
     color: white;
 }
 button:hover{
-    background-color: black;
+    background-color: transparent;
+    border: 2px solid #008599;
     color: #008599;
 }
 h1 h2{
