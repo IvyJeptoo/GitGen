@@ -35,21 +35,3 @@ form.example::after {
   clear: both;
   display: table;
 }
-/* button{
-    
-    width: 10%;
-    padding: 5px;
-    font-weight: 700;
-    background-color: transparent;
-    border: 2px solid #008599;
-    color: #008599;
-    border-radius: 15px;
-}
-button a{
-    text-decoration: none;
-    color: #008599;
-}
-button:hover{
-    background-color: #008599;
-    color: white;
-} */

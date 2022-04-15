@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { GitDetailComponent } from './git-detail/git-detail.component';
 import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
+import { ReposComponent } from './repos/repos.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { UserComponent } from './user/user.component';
     GitDetailComponent,
     HomeComponent,
     UserComponent,
+    ReposComponent,
     
   ],
   imports: [
