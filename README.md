@@ -1,5 +1,5 @@
 # Git-Search
-### This is a simple project that allows the user to create their own quote with details to an existing quote card. It gives an option of upvotes and downvotes with an highlight of most voted quote. 
+### The Github search project allows a user to search for any user profile from github by inputing the username and also have a view of all the repositories from a certain user. 
 
 ## Table of Content
 
@@ -11,7 +11,7 @@
 
 ## Description
 An angular project that uses github API  to allow users to searcg for any github profile and also search for repositories for a specific user.
-  
+
  + Live Link- https://ivyjeptoo.github.io/quoteGen/
   
  
