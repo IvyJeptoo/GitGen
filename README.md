@@ -12,7 +12,7 @@
 ## Description
 An angular project that uses github API  to allow users to searcg for any github profile and also search for repositories for a specific user.
 
- + Live Link- https://ivyjeptoo.github.io/quoteGen/
+ + Live Link- https://ivyjeptoo.github.io/GitGen/
   
  
  ### Requirements
