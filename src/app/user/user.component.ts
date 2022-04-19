@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GitInfoService } from '../api-request.service'
 
 @Component({
   selector: 'app-user',
@@ -6,10 +7,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
+   
+  profile!: any
+  userName:any = '';
+  
 
-  constructor() { }
+  constructor(private gitInfoService: GitInfoService) { }
+ searchUser(){
+
+   this.gitInfoService.getUserName(this.userName)
+   this.gitInfoService.getUserInfo().then((user: any)=>{
+     this.profile = user;
+   })
+ }
+
 
   ngOnInit(): void {
+    this.searchUser()
   }
 
 }

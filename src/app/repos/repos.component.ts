@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GitInfoService } from '../api-request.service'
 
 @Component({
   selector: 'app-repos',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReposComponent implements OnInit {
 
-  constructor() { }
+  userName!: string;
+  repos:any
+
+  constructor(private gitInfoService: GitInfoService) { }
+
+  getUserRepositories(){
+    this.gitInfoService.getUserName(this.userName);
+    this.gitInfoService.getUserRepos().then((repos:any)=>{
+      this.repos = repos;
+    })
+  }
 
   ngOnInit(): void {
+    this.getUserRepositories();
   }
 
 }
